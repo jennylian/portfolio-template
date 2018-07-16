@@ -3,18 +3,18 @@ html {
   height: 100%;
   color: #242423;
   line-height: 1.8;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Lobster Two", Arial, sans-serif;
 }
 
 h1 {
-  font-size: 36px;
-  color: white;
+  font-size: 65px;
+  color: yellow;
   font-weight: 800;
 }
 
 h2 {
-  font-size: 30px;
-  color: white;
+  font-size: 72px;
+  color:blue;
 }
 
 h3 {
@@ -34,12 +34,12 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Lobster Two", Arial, sans-serif;
   margin: 10px 0
 }
 
 p {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Crete Round", Arial, sans-serif;
 }
 
 .bar-color{
@@ -48,8 +48,8 @@ p {
 }
 
 #myNavbar {
-  font-size: 20px;
-  color: #242423;
+  font-size: 45px;
+  color: #5ef38c;
 }
 
 #myNavbar a {
@@ -58,29 +58,32 @@ p {
 
 #myNavbar a:hover {
   text-decoration: none;
-  background-color: #BBBBBC;
+  background-color: #;
   color: white;
 }
 
 .nav-change {
-  background-color: white;
+  background-color:brown;
+}
+#about {
+  background-color:skyblue
 }
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('../img/notebook.jpg');
+  background-image: url('https://images.unsplash.com/photo-1531224572738-184ba505e0d7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d0af44876adab0e506c6744084af7679&auto=format&fit=crop&w=2468&q=80');
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url('../img/code.jpg');
+  background-image: url('https://images.unsplash.com/photo-1518687560396-172a78aec156?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8c6ddc031f92185a88d4d1f3b7d5cb57&auto=format&fit=crop&w=1421&q=80');
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url('../img/arcade.jpg');
+  background-image: url('https://images.unsplash.com/photo-1527067669193-6a36380de229?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=075d07fb2cee915ef07dee0d73cbdd54&auto=format&fit=crop&w=1236&q=80');
   min-height: 400px;
 }
 
@@ -109,8 +112,8 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #616161;
-  color: white;
+  background-color: #faf0e6;
+  color: black;
   overflow: hidden;
   width: 100%;
   height: 0;
